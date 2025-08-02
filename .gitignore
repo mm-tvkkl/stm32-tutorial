@@ -1,0 +1,42 @@
+# Ignore everything in build directories
+**/build/
+**/Debug/
+**/Release/
+
+# Ignore IDE-generated metadata
+**/.project
+**/.cproject
+**/.settings/
+**/.vscode/
+
+# Ignore CubeMX generated backup and log files
+**/*_backup.ioc
+**/*.log
+
+# Ignore compiled object files and output binaries
+**/*.o
+**/*.elf
+**/*.bin
+**/*.hex
+**/*.map
+**/*.lst
+
+# Ignore generated assembly files
+**/*.s
+**/*.S
+
+# Ignore listing and dependency files
+**/*.d
+**/*.list
+
+# Ignore Proteus generated files
+**/*.DSN
+**/*.LYT
+**/*.PDSPRJ~
+**/*.bak
+**/*.tmp
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+desktop.ini
