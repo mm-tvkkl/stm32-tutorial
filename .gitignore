@@ -40,3 +40,6 @@
 .DS_Store
 Thumbs.db
 desktop.ini
+
+Project\ Backups/
+.metadata/
